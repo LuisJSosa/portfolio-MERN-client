@@ -25,7 +25,7 @@ function JobLogPage({ setJob }) {
             },
         });
 
-        // uncomment out when working locally on MongoDB
+        // uncomment out line below when working locally on MongoDB
         //const response = await fetch(`/jobLog/${id}`, { method: "DELETE"});
 
         if (response.status === 204) {
