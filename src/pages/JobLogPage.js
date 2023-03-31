@@ -8,7 +8,7 @@ function JobLogPage({ setJob }) {
     const [jobs, setJobs] = useState([]);
 
     const retrieveJobLog = async () => {
-        const response = await fetch ("/jobLog");
+        const response = await fetch ("https://portfolio-webs.herokuapp.com");
         const jobs = await response.json();
         setJobs(jobs);}
 
@@ -17,10 +17,19 @@ function JobLogPage({ setJob }) {
         navigate("/edit-job");}
 
     const deleteJob = async id => {
-        const response = await fetch(`/jobLog/${id}`, { method: "DELETE"});
+        const response = await fetch("https://portfolio-webs.herokuapp.com", {
+            method: "DELETE", 
+            body: JSON.stringify({id:`${id}`}), 
+            headers: {
+                "Content-Type": "application/json",
+            },
+        });
+
+        // uncomment out when working locally on MongoDB
+        //const response = await fetch(`/jobLog/${id}`, { method: "DELETE"});
 
         if (response.status === 204) {
-            const getResponse = await fetch("jobLog");
+            const getResponse = await fetch("https://portfolio-webs.herokuapp.com");
             const jobs = await getResponse.json();
             setJobs(jobs);
         } else {

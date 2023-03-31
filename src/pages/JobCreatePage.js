@@ -17,7 +17,7 @@ export const JobCreatePage = () => {
 
         const createJob = { jobTitle, jobDescription, jobRank, startDate, endDate };
 
-        const response = await fetch("/jobLog", {
+        const response = await fetch("https://portfolio-webs.herokuapp.com", {
             method: "POST",
             body: JSON.stringify(createJob),
             headers: {

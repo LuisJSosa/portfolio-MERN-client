@@ -14,9 +14,10 @@ export const JobEditPage = ({ job }) => {
     const navigate = useNavigate()
     const editJob = async () => {
 
-        const response = await fetch(`/jobLog/${job._id}`, {
+        const response = await fetch("https://portfolio-webs.herokuapp.com", {
             method: "PUT",
             body: JSON.stringify({
+                _id: course._id,
                 jobTitle: jobTitle,
                 jobDescription: jobDescription,
                 jobRank: jobRank,
