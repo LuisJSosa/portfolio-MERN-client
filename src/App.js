@@ -27,7 +27,7 @@ function App() {
         <header className='App-header'>
 
           <h1><i className='App-logo' alt='Laptop'>  <GrPersonalComputer />
-          </i> Luis Sosa Lora's Showcase Site
+          </i> Luis Sosa - Showcase Site
           </h1>
         </header>
 
@@ -51,7 +51,7 @@ function App() {
         </main>
 
         <footer>
-          <p>&copy; 2023 Luis Sosa Lora</p>
+          <p>&copy; 2023 Luis Sosa</p>
         </footer>
 
       </BrowserRouter>

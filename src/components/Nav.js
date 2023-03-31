@@ -5,10 +5,10 @@ function Nav() {
     return (
         <nav>
             <Link to ="/"> Home </Link>
-            <Link to="/jobLog">Editable Resume</Link>
-            <Link to="/topics">Topics</Link>
-            <Link to ="../gallery"> Gallery </Link>
-            <Link to ="../staff">Staff</Link>
+            <Link to="/jobLog">CRUD Resume</Link>
+            <Link to="/topics">Web Concepts</Link>
+            <Link to ="../gallery"> Projects </Link>
+            <Link to ="../staff">API</Link>
             <Link to ="../order">Order</Link>
         </nav>
 
