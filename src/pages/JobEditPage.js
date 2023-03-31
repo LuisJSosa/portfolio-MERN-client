@@ -17,7 +17,7 @@ export const JobEditPage = ({ job }) => {
         const response = await fetch("https://portfolio-webs.herokuapp.com", {
             method: "PUT",
             body: JSON.stringify({
-                _id: course._id,
+                _id: job._id,
                 jobTitle: jobTitle,
                 jobDescription: jobDescription,
                 jobRank: jobRank,
