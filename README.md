@@ -14,6 +14,18 @@ The heart of this project lies in its diverse features, each serving a specific 
 
 Through this website, I aim to present not just my technical skills, but also an understanding of how these skills can be applied to create meaningful and user-friendly web applications. The project is an ongoing journey of learning, building, and refining, and I hope it serves as a testament to my dedication and passion for web development.
 
+## Deployment Status
+
+### Server-Side Code on GitHub
+The server-side code for this project is hosted on GitHub. This repository includes all the back-end functionalities essential for the operation of the MERN Showcase Website.
+
+### Front-End Deployment
+The live version of this website was previously deployed on Netlify, providing a real-world demonstration of the project in action. This deployment was instrumental in showcasing the project's capabilities to a wider audience and offered an interactive experience of the website's features.
+
+### Current Deployment Status
+As of now, the live deployment on Netlify has been temporarily disabled. This decision was taken due to financial constraints associated with maintaining the site live. It's important to note that this pause is a strategic move to ensure the sustainability of the project and does not detract from the quality and functionality of the code.
+
+I are actively exploring cost-effective solutions to bring the live version back online in the future. In the meantime, the GitHub repository stands as a testament to the project's capabilities and serves as a comprehensive resource for understanding the structure and functionality of the site.
 
 ## Features
 
