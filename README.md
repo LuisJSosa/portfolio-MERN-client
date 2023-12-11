@@ -54,14 +54,6 @@ I are actively exploring cost-effective solutions to bring the live version back
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-### Installation
-
-To run this project locally, follow these steps:
-
-1. Clone the repository:
-   ```bash
-   git clone <your-repository-URL>
-
 ## Install Dependencies
 
 npm install
