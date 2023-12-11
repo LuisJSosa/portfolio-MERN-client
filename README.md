@@ -1,7 +1,5 @@
 # MERN Showcase Website
 
-# MERN Showcase Website
-
 ## Description
 
 Welcome to the MERN Showcase Website, a project designed to demonstrate practical skills and knowledge in full-stack development using the MERN stack (MongoDB, Express, React, Node.js). This website is a portfolio of sorts, showcasing not just the ability to code, but to construct a fully functional and interactive web application.
